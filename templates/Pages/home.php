@@ -74,7 +74,7 @@ endif;
                 <img alt="CakePHP" src="https://cakephp.org/v2/img/logos/CakePHP_Logo.svg" width="350" />
             </a>
             <h1>
-                Joder Welcome to CakePHP <?= h(Configure::version()) ?> Strawberry (🍓)
+                Joder CakePHP <?= h(Configure::version()) ?> Strawberry (🍓)
             </h1>
         </div>
     </header>
