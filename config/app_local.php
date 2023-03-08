@@ -79,7 +79,7 @@ return [
      *
      * Host and credential configuration in case you are using SmtpTransport
      *
-     * See app.php for more configuration options.
+     * See app.php.. for more configuration options.
      */
     'EmailTransport' => [
         'default' => [
