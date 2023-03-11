@@ -46,7 +46,7 @@ if (!Configure::read('debug')) :
         'Please replace templates/Pages/home.php with your own version or re-enable debug mode.'
     );
 endif;
-
+//Sweet home Alabama ...
 ?>
 <!DOCTYPE html>
 <html>
