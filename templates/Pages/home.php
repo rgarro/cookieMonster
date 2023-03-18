@@ -54,7 +54,7 @@ endif;
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        CakePHP: the rapid development PHP:
+        COOKIE MONSTER HOMEPAGE
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
@@ -74,7 +74,7 @@ endif;
                 <img alt="CakePHP" src="https://cakephp.org/v2/img/logos/CakePHP_Logo.svg" width="350" />
             </a>
             <h1>
-                JoderIII CakePHP <?= h(Configure::version()) ?> Strawberry (🍓)
+                JoderIV CakePHP <?= h(Configure::version()) ?> Strawberry (🍓)
             </h1>
         </div>
     </header>
