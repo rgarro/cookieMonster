@@ -46,7 +46,7 @@ if (!Configure::read('debug')) :
         'Please replace templates/Pages/home.php with your own version or re-enable debug mode.'
     );
 endif;
-//Sweet home Alabama ...
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -54,6 +54,7 @@ endif;
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
+        CakePHP: the rapid development PHP framework:
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
@@ -73,7 +74,7 @@ endif;
                 <img alt="CakePHP" src="https://cakephp.org/v2/img/logos/CakePHP_Logo.svg" width="350" />
             </a>
             <h1>
-                JoderIV CakePHP <?= h(Configure::version()) ?> Strawberry (🍓)
+                Joder CakePHP <?= h(Configure::version()) ?> Strawberry (🍓)
             </h1>
         </div>
     </header>
