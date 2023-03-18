@@ -54,7 +54,6 @@ endif;
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        COOKIE MONSTER HOMEPAGE
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
