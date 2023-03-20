@@ -16,7 +16,7 @@ class ArticlesTableTest extends TestCase
      *
      * @var \App\Model\Table\ArticlesTable
      */
-    protected $Articles;
+    protected $ArticlesTable;
 
     /**
      * Fixtures
@@ -38,7 +38,7 @@ class ArticlesTableTest extends TestCase
     {
         parent::setUp();
         $config = $this->getTableLocator()->exists('Articles') ? [] : ['className' => ArticlesTable::class];
-        $this->Articles = $this->getTableLocator()->get('Articles', $config);
+        $this->ArticlesTable = $this->getTableLocator()->get('Articles', $config);
     }
 
     /**
@@ -48,7 +48,7 @@ class ArticlesTableTest extends TestCase
      */
     protected function tearDown(): void
     {
-        unset($this->Articles);
+        unset($this->ArticlesTable);
 
         parent::tearDown();
     }
