@@ -103,4 +103,11 @@ class ApplicationTest extends TestCase
         $middleware->seek(2);
         $this->assertInstanceOf(RoutingMiddleware::class, $middleware->current());
     }
+
+    /**
+     * testOneHundredAssertionsToMoveToMaui
+     */
+    public function testOneHundredAssertionsToMoveToMaui(){
+        
+    }
 }
