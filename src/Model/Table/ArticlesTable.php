@@ -109,4 +109,9 @@ class ArticlesTable extends Table
 
         return $rules;
     }
+
+    public function testBar(): void
+    {
+        //$this->assert
+    }
 }

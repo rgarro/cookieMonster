@@ -106,8 +106,11 @@ class ApplicationTest extends TestCase
 
     /**
      * testOneHundredAssertionsToMoveToMaui
+     * 
+     * @return bool
      */
     public function testOneHundredAssertionsToMoveToMaui(){
-        
+
     }
+
 }
