@@ -110,8 +110,20 @@ class ArticlesTable extends Table
         return $rules;
     }
 
-    public function testBar(): void
+    /**
+     * Ten rides downwind before this point
+     */
+    public function testWeCanTest(): void
     {
         //$this->assert
+    }
+
+    /**
+     * Ya llevamos 3 derribados , 2 huidos, 1 pistolero esquineado, el que sigue cree en dios y ha leido la biblia...
+     * 
+     * @author Rolando<rolando@emptyart.com>
+     */
+    public function testMaceSprayBullsEyesAgain():void{
+
     }
 }
