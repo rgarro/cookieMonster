@@ -111,7 +111,7 @@ class ArticlesTable extends Table
     }
 
     /**
-     * Ten rides downwind before this point
+     * Ten rides Downwind before this pointcl
      */
     public function testWeCanTest(): void
     {
@@ -120,7 +120,7 @@ class ArticlesTable extends Table
     }
 
     /**
-     * Ya llevamos 3 derribados , 2 huidos, 1 pistolero esquineado, el que sigue cree en dios y ha leido la biblia...
+     * Ya llevamos 3 derribados , 2 huidos, 1 pistolero esquineado , el que sigue cree en dios y ha leido la biblia...
      * 
      * @author Rolando<rolando@emptyart.com>
      */
