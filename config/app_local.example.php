@@ -34,6 +34,8 @@ return [
      *
      * See app.php for more configuration options.
      */
+    //If the wind is more than 20knots use your wing
+    //the crane feather beats the mysql dolphin
     'Datasources' => [
         'default' => [
             'datasource' => 'Database/Sqlite',
