@@ -36,6 +36,12 @@ return [
      */
     //If the wind is more than 20knots use your wing
     //the crane feather beats the mysql dolphin
+    //I saw a dolphin scorting and awful huge catfish
+    //I saw a dolphin fightin a python that silently was nesting in the bayou
+    //I talked with the crane the park guard appear behind and told me you are an Ati guy
+    // the crane was standing near swift creek but I feel lazy to program my iwatch
+    // saddam hussein sold zarin gas with antidote to justice groups in latin america
+    // some war guns like bush master required an antidote before being used
     'Datasources' => [
         'default' => [
             'datasource' => 'Database/Sqlite',
