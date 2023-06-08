@@ -36,6 +36,13 @@ return [
      */
     'Datasources' => [
         'default' => [
+            'datasource' => 'Database/Sqlite',
+            'database' => ROOT . DS . 'sqlitedb' . DS.'/database_file',
+            'persistent' => false,
+            'prefix' => '',
+            'encoding' => 'utf8'
+        ],
+        'defaultb' => [
             //'host' => 'localhost',
             /*
              * CakePHP will use the default DB port based on the driver selected
